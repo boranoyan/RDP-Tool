@@ -1,3 +1,21 @@
+<#
+***************************************
+RDP Server selection script
+this script read each row from serverlist.txt which can be found in same folder
+If you want to Label the row start list iten with --- 
+example: ---TITLE--
+This will skip selection.
+
+
+Bora Noyan
+bora@boranoyan.com
+05/12/2022
+***************************************
+
+#>
+
+
+
 # Load the XML file
 $xmlFile = "serverlist.xml"
 [xml]$xmlData = Get-Content -Path $xmlFile
