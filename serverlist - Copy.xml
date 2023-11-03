@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<ServerList>
+  <Server category="General">
+    <Name>192.168.1.1</Name>
+    <Description>This is a general-purpose server.</Description>
+    <Tasks>
+      <Task>
+        <Name>Task 1</Name>
+        <Status>Active</Status>
+        <CompletedDate></CompletedDate>
+      </Task>
+      <Task>
+        <Name>Task 2</Name>
+        <Status>Completed</Status>
+        <CompletedDate>2023-11-01</CompletedDate>
+      </Task>
+    </Tasks>
+  </Server>
+  <Server category="General">
+    <Name>test-server</Name>
+    <Description>This is a test server for development.</Description>
+    <Tasks>
+      <Task>
+        <Name>Task 3</Name>
+        <Status>Active</Status>
+        <CompletedDate></CompletedDate>
+      </Task>
+      <Task>
+        <Name>Task 4</Name>
+        <Status>Completed</Status>
+        <CompletedDate>2023-10-15</CompletedDate>
+      </Task>
+    </Tasks>
+  </Server>
+  <Server category="General">
+    <Name>example-server</Name>
+    <Description>This is an example server for demonstration.</Description>
+    <Tasks>
+      <Task>
+        <Name>Task 5</Name>
+        <Status>Active</Status>
+        <CompletedDate></CompletedDate>
+      </Task>
+    </Tasks>
+  </Server>
+  <Server category="DatabaseServers">
+    <Name>123.89.65.1</Name>
+    <Description>This is a database server for production data.</Description>
+    <Tasks>
+      <Task>
+        <Name>Task 6</Name>
+        <Status>Completed</Status>
+        <CompletedDate>2023-11-02</CompletedDate>
+      </Task>
+    </Tasks>
+  </Server>
+  <Server category="DatabaseServers">
+    <Name>test-db-server</Name>
+    <Description>This is a test database server for development and testing.</Description>
+    <Tasks>
+      <Task>
+        <Name>Task 7</Name>
+        <Status>Active</Status>
+        <CompletedDate></CompletedDate>
+      </Task>
+      <Task>
+        <Name>Task 8</Name>
+        <Status>Active</Status>
+        <CompletedDate></CompletedDate>
+      </Task>
+    </Tasks>
+  </Server>
+</ServerList>
