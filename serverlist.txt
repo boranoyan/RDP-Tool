@@ -1,7 +1,9 @@
----GENERAL---
-192.168.1.1
-test-server
-example-server
----DATABASE SERVERS---
-123.89.65.1
-test-db-server
+---MAIN SERVER---
+192.168.1.7
+---Abi Server---
+85.96.181.203:55535
+---Baba Desktop---
+192.168.1.29
+---Bora Desktops---
+192.168.1.30
+
